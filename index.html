@@ -1,22 +1,94 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>The Earthlings</title>
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-    <h1>Header 1</h1>
-    <p id="date"></p>
-    <ul>
-    <li> Item 1</li>
-    <li> Item 2</li>
+<html lang="en">
+<head>
+  <title>Earthling </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+.text-center {
+  overflow: hidden;
+}
+</style>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-warning navbar-light">
+  <a class="navbar-brand" href="#">
+      <img src="images/IMG_4195.PNG" height="46" alt="Earthling"/>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-value="data" href="#">Data</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-value="interactive" href="#">Interactive</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-value="takeaction" href="#">Take Action</a>
+      </li>
     </ul>
-    <script src="app.js"></script>
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
-    </body>
+<!--
+    <button class="btn btn-danger navbar-btn">Home</button>
+    <button class="btn btn-danger navbar-btn">Data</button>
+    <button class="btn btn-danger navbar-btn">Interactive</button>
+    <button class="btn btn-danger navbar-btn">Take Action</button>
+-->
+  </div>
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-3">
+      <h2>How Do Your Clothes Impact the Environment? </h2>
+    </div>
+    <div class="col-sm-5">
+      <img src="images/IMG_4192.GIF" height="164" alt="Logo"/>
+    </div>
+    <div class="text-center">
+      <p>Some love fashion, some do not. But, everyone needs clothes!
+Our goal is to show you how your shopping habits, before and after, contribute to climate change.
+What can you do to minimize these effects?</p>
+    </div>
+<div class="text-center" style="margin-bottom:0">
+  <h3> What is fast fashion? </h3>
+<p>Fast fashion is inexpensive clothing produced rapidly in response to the latest trends. Most clothing brands do not give much thought or action to creating clothing that does not harm the environment </p>
+  <h3> What is wrong with fast fashion? </h3>
+<p>Retailers often use cheap, toxic dye and massive amounts of water (in addition to other negative practices) in order to meet demands. These factors contribute to climate change. </p>
+</div>
+<div class="text-center" style="margin-bottom:0">
+<p> Click Click on the top banner to access interactive data, games, and explore ways to take action!</p>
+</div>
+
+<div class="data" id="data">
+	<div class="container">
+	  <h1 class="text-center">Data Homepage</h1>
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+				<p>
+Have you ever wondered how your shopping habits are affecting the environment? Well, here are some statistics to put into account of the impact that one shirt has on the the Earth.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+			 	<h2>Impact of Fast Fashion</h2>
+
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
 </html>
